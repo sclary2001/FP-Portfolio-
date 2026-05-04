@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sean Clary Portfolio</title>
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="styles/main.css">
+</head>
+<body>
+
+<nav class="navbar navbar-dark bg-dark p-3">
+  <div class="container">
+    <span class="navbar-brand">Sean Clary</span>
+  </div>
+</nav>
+
+<header class="text-center p-5 bg-light">
+  <h1>Sean Clary</h1>
+  <p>2LT | Alabama National Guard | CIS Student</p>
+</header>
+
+<section class="container my-5">
+  <h2>About Me</h2>
+  <p>
+    I am Sean Clary, a 2nd Lieutenant in the Alabama National Guard and a Computer Information Systems student at the University of North Alabama.
+  </p>
+  <p>
+    Before commissioning, I served 3 years as an enlisted infantry soldier. I later graduated and commissioned from Marion Military Institute with my associate degree.
+  </p>
+  <p>
+    I also completed training at Fort Benning, Georgia. My background helped me build leadership, discipline, teamwork, and problem-solving skills.
+  </p>
+</section>
+
+<section class="container my-5">
+  <h2>Photo Gallery</h2>
+  <p>A few moments from my military and academic journey.</p>
+
+  <div class="row g-3 gallery">
+    <div class="col-md-4">
+      <img src="assets/images/IMG_4240.jpeg" alt="Commissioning photo" class="img-fluid rounded gallery-img">
+    </div>
+    <div class="col-md-4">
+      <img src="assets/images/IMG_4272.jpeg" alt="Commissioning handshake" class="img-fluid rounded gallery-img">
+    </div>
+    <div class="col-md-4">
+      <img src="assets/images/IMG_4276.jpeg" alt="Commissioning certificate" class="img-fluid rounded gallery-img">
+    </div>
+    <div class="col-md-6">
+      <img src="assets/images/IMG_1575.jpeg" alt="Family and friends photo" class="img-fluid rounded gallery-img">
+    </div>
+    <div class="col-md-6">
+      <img src="assets/images/IMG_5026.jpeg" alt="Military uniform photo" class="img-fluid rounded gallery-img">
+    </div>
+  </div>
+</section>
+
+<section class="container my-5">
+  <h2>Projects</h2>
+  <input type="text" id="search" class="form-control mb-3" placeholder="Search projects...">
+  <div id="projects" class="row"></div>
+</section>
+
+<section class="container my-5">
+  <h2>Contact</h2>
+  <form id="contactForm">
+    <input class="form-control mb-2" id="name" placeholder="Name" required>
+    <input class="form-control mb-2" id="email" placeholder="Email" required>
+    <textarea class="form-control mb-2" id="message" placeholder="Message"></textarea>
+    <button class="btn btn-primary">Submit</button>
+  </form>
+</section>
+
+<script type="module" src="scripts/app.js"></script>
+
+</body>
+</html>
