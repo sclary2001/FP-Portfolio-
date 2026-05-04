@@ -1,74 +1,64 @@
-# 👋 Hi, I'm Sean Clary
-
-🎖️ 2nd Lieutenant | Alabama National Guard  
-💻 Computer Information Systems Student  
-📍 University of North Alabama  
-
----
-
-## 🧭 About Me
-
-I am currently serving as a **2nd Lieutenant in the Alabama National Guard** while pursuing my degree in **Computer Information Systems** at the University of North Alabama.
-
-Before commissioning, I served **3 years as an enlisted infantry soldier**, gaining experience in teamwork, discipline, and leadership.
-
-I graduated and commissioned from **Marion Military Institute** with my associate degree and completed military training at **Fort Benning, Georgia**.
-
-I’m now focused on building a career in IT, with interests in:
-- Web Development  
-- Networking  
-- Cybersecurity  
-
----
-
-## 🚀 Featured Project
-
-### Sean Clary Portfolio  
+# Sean Clary Portfolio
 
 > A personal portfolio website showcasing my military background, IT skills, and web development projects.
 
-🔗 Repo: https://github.com/sclary2001/sclary2001.github.io  
-🌐 Live Site: https://sclary2001.github.io/  
+---
+
+## 👤 Author
+
+Sean Clary  
+GitHub: https://github.com/sclary2001  
+LinkedIn: ADD YOUR LINK HERE  
 
 ---
 
-## 💻 Skills
+## 🧭 User Story
 
-- HTML, CSS, JavaScript  
-- Bootstrap  
-- Git & GitHub  
-- JSON / Fetch API  
-- Basic Networking Concepts  
+- *As a visitor*  
+- *I want to view Sean Clary’s background, projects, and contact information*  
+- *So that I can learn about his experience and technical skills*
 
 ---
 
-## 📸 Experience Highlights
+## 📖 Narrative
 
-- 3 Years Enlisted Infantry  
-- Commissioned Officer (2LT)  
-- Marion Military Institute Graduate  
-- Training at Fort Benning, GA  
+This portfolio was created as a final project for a web development course. The goal of this project was to demonstrate the ability to build a clean, functional, and well-structured front-end application.
+
+I am currently a **2nd Lieutenant in the Alabama National Guard** and a **Computer Information Systems student at the University of North Alabama**. Before commissioning, I served **three years as an enlisted infantry soldier**. I graduated and commissioned from **Marion Military Institute** with my associate degree and completed military training at **Fort Benning, Georgia**.
+
+This project reflects both my technical growth and my ability to organize and present information clearly. It combines my personal background with web development concepts learned throughout the semester.
+
+### What this app does:
+- Displays my background and experience  
+- Shows a photo gallery from my military journey  
+- Dynamically loads project data using JSON  
+- Allows users to search/filter projects  
+- Includes a contact form that packages data into JSON  
+
+### Why I chose this project:
+I chose to build a personal portfolio because it is something I can continue to use professionally. It also allowed me to apply multiple concepts from the course in a meaningful and real-world way.
+
+### What I built/improved:
+- Structured multi-file web app (HTML, CSS, JS, JSON)  
+- Dynamic content loading with Fetch API  
+- Search functionality  
+- Form handling with JSON output  
+- Responsive layout using Bootstrap  
 
 ---
 
-## 📫 Contact
+## 📂 Project Structure
 
-Feel free to reach out through my portfolio site or GitHub.
-
----
-
-## 🔗 Connect with Me
-
-(OPTIONAL BONUS FOR CLASS)
-
-- Add your LinkedIn here  
-- Join CSIS Group: https://www.linkedin.com/groups/12058862/  
-
----
-
-## ⚡ Goals
-
-- Continue building full-stack web skills  
-- Gain experience in cybersecurity  
-- Grow as a leader in both IT and the military  
+```bash
+portfolio-site/
+├── index.html
+├── README.md
+├── assets/
+│   └── images/
+├── data/
+│   └── projects.json
+├── scripts/
+│   └── app.js
+└── styles/
+    └── main.css 
 
